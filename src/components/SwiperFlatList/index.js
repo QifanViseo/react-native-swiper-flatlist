@@ -195,7 +195,7 @@ export default class SwiperFlatList extends PureComponent {
     };
 
     return (
-      <View>
+      <View style={{ flex: 1 }}>
         <FlatList {...flatListProps} />
         {showPagination && <PaginationComponent {...paginationProps} />}
       </View>
